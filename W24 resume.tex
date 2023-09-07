@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeAwardHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Joffre du Preez} \\ \vspace{5pt}
+    \small (289) 707-1301 $|$ \href{mailto:joffre@joffredupreez.com}{\underline{joffre@joffredupreez.com}} $|$ 
+    \href{www.linkedin.com/in/joffredupreez}{\underline{linkedin.com/in/joffredupreez}} $|$
+    \href{https://github.com/JoffduPreez}{\underline{github.com/JoffduPreez}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Guelph}{Guelph, Ontario}
+      {BCOMP Bachelor of Computing, Computer Science (Co-op)}{Sept 2020 - Present}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+  
+    \resumeSubheading
+      {Tulip Retail}{Kitchener, ON}
+      {Intern Software Developer}{May 2022 - Aug 2022}
+      \resumeItemListStart
+        \resumeItem{Supported the development of a powerful omnichannel checkout system at Tulip Retail, actively contributing to the creation of a robust and seamless customer experience}
+        \resumeItem{Extended the back-end API of the checkout system at Tulip Retail by implementing new endpoints, improving system capabilities, and facilitating seamless data interaction}
+        \resumeItem{Collaborated closely with diverse team members to develop and maintain the codebase, fostering effective communication and teamwork skills}
+        \resumeItem{Addressed a wide range of software issues, including routine bug fixes such as managing error logs and resolving high-priority client-specific bugs, ensuring optimal system performance}
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Exiger}{Toronto, ON}
+      {Intern Software Developer}{May 2022 - December 2022}
+      \resumeItemListStart
+        \resumeItem{Set up automated documentation for 123 API endpoints using Swagger OpenAPI Specification}
+        \resumeItem{Connected Swagger OpenAPI Specification with a UI to produce an interactive form of documentation}
+        \resumeItem{Integrated HashiCorp Vault into a project to secure and encrypt start up credentials}
+        \resumeItem{Explored ways to rotate IP addresses using proxy servers in order to effectively scrape web data}
+        \resumeItem{Worked on converting a project into a spring boot application}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Mortgage Allies}{Remote}
+      {Intern Software Developer}{May 2021 - Aug 2021}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack mortgage planning calculator web application, utilizing object-oriented concepts in PHP and JavaScript}
+        \resumeItem{Extracted data and converted calculations from an excel file into back end calculations for the web application}
+        \resumeItem{Collaborated with team members on complex style and validation issues to deliver a high quality dynamic UI}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{SVG Parser} $|$ \emph{C, Node.js, JavaScript, MySQL, HTML, CSS}}{}
+          \resumeItemListStart
+            \resumeItem{Created a web application which allows users to upload, view, and edit images}
+            \resumeItem{Uses a MySQL database to store saved SVG images (in progress)}
+            \resumeItem{Utilized a C back end to parse SVG images, which connects to the client side through Node.js}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Portfolio Management Program} $|$ \emph{Java}}{}
+          \resumeItemListStart
+            \resumeItem{Constructed a graphic user interface using Java to manage investments for users}
+            \resumeItem{Allows a user to buy, sell, and update stocks and mutual funds while tracking the gain of their portfolio and investments}
+            \resumeItem{Applied object-oriented programming to explore libraries which aided in creating an organized structure}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, Java, JavaScript, Python, PHP, HTML, CSS, SASS, SQL} \\
+     \textbf{Frameworks}{: React, Node.js, Express } \\
+     \textbf{Developer Tools}{: Git, Docker, HashiCorp Vault, Jira, Bitbucket, Visual Studio Code, IntelliJ, Chrome dev tools, Command line} \\
+    }}
+ \end{itemize}
+
+ \section{Awards}
+    \resumeSubHeadingListStart
+    \resumeAwardHeading
+      {Hack the Job Hackathon - 2nd Place Overall}{January 2022}
+      \resumeItemListStart
+        \resumeItem{Placed second place overall in the Hack the Job Hackathon}
+        \resumeItem{Developed a full-stack web application which allows users to create a personalized website based off different templates}
+      \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
